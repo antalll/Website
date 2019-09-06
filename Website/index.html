@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="https://kit.fontawesome.com/060d997fd1.js"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Aveez Community | Website</title>
+
+      <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+      <style>
+      .fa-bars {
+        display: none;
+      }
+      .fa-bars:hover {
+        opacity: 0.5;
+      }
+      .fa-bars {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms;-o-transition: all 300ms;}
+      </style>
+
+  </head>
+
+
+
+  <body>
+
+    <!--- HEADER -------------------------------------------->
+
+    <header>
+        <div id="logo">
+          <a href='#home'>
+              <img src='img/logo.png' alt="Logo">
+          </a>
+        </div>
+
+      <nav id="main-nav">
+        <i class="fas fa-bars"></i>
+        <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#infos"><li>Infos</li></a>
+            <a href="#shop"><li>Shop</li></a>
+            <a href="#bestellen"><li>Bestellen</li></a>
+            <a href="#kontakt"><li>Kontakt</li></a>
+        </ul>
+      </nav>
+  </header>
+
+  <!--- HOME ---------------------------------------------->
+
+  <section id="home">
+    <hr>
+    <h1>Aveez-Community</h1>
+    <h2>Discord | Minecraft</h2>
+    <nav>
+      <ul>
+        <li><a href="#infos"><i class="fas fa-chevron-down"></i></a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!--- INFOS ---------------------------------------------->
+
+  <section id="infos">
+    <h3>Infos</h3>
+    <hr>
+    <img src="img/avatar.png" alt="Avatar">
+    <h4>Allgemein</h4>
+    <p>Dies ist die offizielle Aveez-Community Seite! Hier kannst du dir Ränge für Discord und Minecraft kaufen, und somit Aveez und das Serverteam unterstützen! Außerdem findest du hier unsere Social-Medias und andere Informationen über Aveez</p>
+  </section>
+
+  <!--- SHOP ---------------------------------------------->
+
+  <section id="shop">
+    <h3>Shop</h3>
+    <hr>
+
+    <div id="gegenstände">
+      <ul>
+        <li><a href="#bestellen"><img src="img/gegenstand1.png" alt="gegenstand1"></a></li>
+        <li><a href="#bestellen"><img src="img/gegenstand2.png" alt="gegenstand2"></a></li>
+        <li><a href="#bestellen"><img src="img/gegenstand3.png" alt="gegenstand3"></a></li>
+        <li><a href="#bestellen"><img src="img/gegenstand4.png" alt="gegenstand4"></a></li>
+        <li><a href="#bestellen"><img src="img/gegenstand4.png" alt="gegenstand4"></a></li>
+        <li><a href="#bestellen"><img src="img/gegenstand4.png" alt="gegenstand4"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--- BESTELLEN ------------------------------------------>
+
+  <section id="bestellen">
+    <h3>Bestellen</h3>
+    <hr>
+
+    <form>
+      <input class="input_text" type="text" tabindex="1" placeholder="Deine Bestellung"><br>
+      <input class="input_text" type="text" tabindex="2" placeholder="Discordname #1234"><br>
+      <input class="input_text" type="text" tabindex="3" placeholder="Minecraft-Name"><br>
+      <input class="input_text" type="text" tabindex="4" placeholder="E-Mail"><br>
+      <input class="input_text" type="text" tabindex="5" placeholder="Paysafe-Code"><br>
+      <input class="button" type="submit">
+    </form>
+  </section>
+
+  <!--- KONTAKT ------------------------------------------>
+
+  <section id="kontakt">
+    <h3>Kontakt</h3>
+    <hr>
+    <div id="social">
+      <ul>
+        <li><a href="https://www.instagram.com/serverteam.avz/?hl=de"><img src="img/insta.png" alt="insta"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCOxyxiptBs4nXma-Skg2aLg"><img src="img/youtube.png" alt="youtube"></a></li>
+        <li><a href="https://discord.gg/mE5vfb3"><img src="img/discord.png" alt="discord"></a></li>
+        <li><img src="img/mc.png" alt="mc"></li>
+        <li><a href=""><img src="img/gegenstand4.png" alt="gegenstand4"></a></li>
+        <li><a href=""><img src="img/gegenstand4.png" alt="gegenstand4"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--- FOOTER ---------------------------------------------->
+  <style>
+  @media screen and (max-width: 1024px) {
+    header {
+      height: auto;
+    }
+    #logo {
+      width: 1px;
+      margin-top: 5px;
+      margin-left: 5px;
+
+    }
+    header nav {
+      margin-top: 0;
+      margin-right: 15px;
+      margin-left: 20px;
+    }
+    header nav ul li {
+      font-size: 12px;
+    }
+    #home h1 {
+      font-size: 60px;
+      margin-top: 200px;
+    }
+    #home h2 {
+      font-size: 20px;
+    }
+    #home h3 {
+      padding-top: 12%;
+    }
+    #finfos h3 {
+      font-size: 10px;
+    }
+    #infos {
+      padding-top: 1%;
+    }
+    #shop {
+      padding-top: 1%;
+    }
+    #shop {
+      width: auto;
+    }
+    #shop ul li {
+      width: auto;
+      float: none;
+    }
+    #shop ul li:last-child {
+      padding-bottom: 20%;
+    }
+    #shop img {
+      width: 47%;
+      height: auto;
+    }
+    #bestellen {
+      padding-top: 1%;
+    }
+    #kontakt {
+      padding-top: 1%;
+    }
+    form input {
+      width: 60%;
+    }
+
+    .button {
+      width: 62%;
+    }
+  }
+
+
+  @media screen and (max-width: 480px){
+    header {
+      height: auto;
+    }
+    #logo {
+      width: 90px;
+      margin-left: 5px;
+    }
+    header nav {
+      margin: 0;
+      float: none;
+    }
+    .fa-bars {
+      font-size: 17px;
+      display: inline-block;
+      width: 100%;
+      cursor: pointer;
+      text-align: right;
+      float: right;
+      margin: -34px 30px 0 0;
+    }
+    header nav ul {
+      height: 0;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    header nav ul.open {
+      height: 100px;
+
+    }
+    header nav ul li {
+      width: 100%;
+      padding: 3px 0 0 0;
+      padding-bottom: 3px;
+      margin: 0;
+      font-size: 11px;
+      border-top: 1px solid #dddddd;
+    }
+    header nav ul li:hover {
+      background-color: #eeeeee;
+    }
+    #home h1 {
+      font-size: 40px;
+      margin-top: 200px;
+    }
+    #home h2{
+      width: 70%;
+      height: auto;
+    }
+    #shop img {
+      width: 25%;
+      height: auto;
+    }
+    #shop ul li {
+      width: 100%;
+      float: none;
+    }
+    #shop ul li:last-child {
+      padding-bottom: 20%;
+    }
+
+    form input, textarea {
+      width: 70%;
+    }
+    .button {
+      width: 72%;
+    }
+  }
+  </style>
+
+  <footer>
+    <p>
+      &copy; Aveez-Team  -  Antal -
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script>
+  <script src="js/mobile-menue.js"></script>
+  </body>
+</html>
